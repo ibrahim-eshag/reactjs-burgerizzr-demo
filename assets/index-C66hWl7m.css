@@ -55,22 +55,22 @@ body {
 
 @font-face {
     font-family: FrutigerLTStd-Light;
-    src: urlFrutiger%20LT%20Arabic%2045%20Light-DYShZyg5.ttf) format("embedded-opentype"), urlFrutiger%20LT%20Arabic%2045%20Light-DYShZyg5.ttf) format("woff2"), urlFrutiger%20LT%20Arabic%2045%20Light-DYShZyg5.ttf) format("woff"), urlFrutiger%20LT%20Arabic%2045%20Light-DYShZyg5.ttf) format("truetype"), urlFrutiger%20LT%20Arabic%2045%20Light-DYShZyg5.ttf) format("svg")
+    src: url(Frutiger%20LT%20Arabic%2045%20Light-DYShZyg5.ttf) format("embedded-opentype"), url(Frutiger%20LT%20Arabic%2045%20Light-DYShZyg5.ttf) format("woff2"), url(Frutiger%20LT%20Arabic%2045%20Light-DYShZyg5.ttf) format("woff"), url(Frutiger%20LT%20Arabic%2045%20Light-DYShZyg5.ttf) format("truetype"), url(Frutiger%20LT%20Arabic%2045%20Light-DYShZyg5.ttf) format("svg")
 }
 
 @font-face {
     font-family: FrutigerLTStd-Roman;
-    src: urlFrutiger%20LT%20Arabic%2055%20Roman-DcatSmBs.ttf) format("embedded-opentype"), urlFrutiger%20LT%20Arabic%2055%20Roman-DcatSmBs.ttf) format("woff2"), urlFrutiger%20LT%20Arabic%2055%20Roman-DcatSmBs.ttf) format("woff"), urlFrutiger%20LT%20Arabic%2055%20Roman-DcatSmBs.ttf) format("truetype"), urlFrutiger%20LT%20Arabic%2055%20Roman-DcatSmBs.ttf) format("svg")
+    src: url(Frutiger%20LT%20Arabic%2055%20Roman-DcatSmBs.ttf) format("embedded-opentype"), url(Frutiger%20LT%20Arabic%2055%20Roman-DcatSmBs.ttf) format("woff2"), url(Frutiger%20LT%20Arabic%2055%20Roman-DcatSmBs.ttf) format("woff"), url(Frutiger%20LT%20Arabic%2055%20Roman-DcatSmBs.ttf) format("truetype"), url(Frutiger%20LT%20Arabic%2055%20Roman-DcatSmBs.ttf) format("svg")
 }
 
 @font-face {
     font-family: FrutigerLTStd-Bold;
-    src: urlFrutiger%20LT%20Arabic%2065%20Bold-DutpKGri.ttf) format("embedded-opentype"), urlFrutiger%20LT%20Arabic%2065%20Bold-DutpKGri.ttf) format("woff2"), urlFrutiger%20LT%20Arabic%2065%20Bold-DutpKGri.ttf) format("woff"), urlFrutiger%20LT%20Arabic%2065%20Bold-DutpKGri.ttf) format("truetype"), urlFrutiger%20LT%20Arabic%2065%20Bold-DutpKGri.ttf) format("svg")
+    src: url(Frutiger%20LT%20Arabic%2065%20Bold-DutpKGri.ttf) format("embedded-opentype"), url(Frutiger%20LT%20Arabic%2065%20Bold-DutpKGri.ttf) format("woff2"), url(Frutiger%20LT%20Arabic%2065%20Bold-DutpKGri.ttf) format("woff"), url(Frutiger%20LT%20Arabic%2065%20Bold-DutpKGri.ttf) format("truetype"), url(Frutiger%20LT%20Arabic%2065%20Bold-DutpKGri.ttf) format("svg")
 }
 
 @font-face {
     font-family: FrutigerLTStd-Black;
-    src: urlFrutiger%20LT%20Arabic%2075%20black-DTLEXWmj.ttf) format("embedded-opentype"), urlFrutiger%20LT%20Arabic%2075%20black-DTLEXWmj.ttf) format("woff2"), urlFrutiger%20LT%20Arabic%2075%20black-DTLEXWmj.ttf) format("woff"), urlFrutiger%20LT%20Arabic%2075%20black-DTLEXWmj.ttf) format("truetype"), urlFrutiger%20LT%20Arabic%2075%20black-DTLEXWmj.ttf) format("svg")
+    src: url(Frutiger%20LT%20Arabic%2075%20black-DTLEXWmj.ttf) format("embedded-opentype"), url(Frutiger%20LT%20Arabic%2075%20black-DTLEXWmj.ttf) format("woff2"), url(Frutiger%20LT%20Arabic%2075%20black-DTLEXWmj.ttf) format("woff"), url(Frutiger%20LT%20Arabic%2075%20black-DTLEXWmj.ttf) format("truetype"), url(Frutiger%20LT%20Arabic%2075%20black-DTLEXWmj.ttf) format("svg")
 }
 
 .rotate90,
