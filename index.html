@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png+xml" href="./burgerizzr-icon.png" />
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/png+xml" href="./burgerizzr-icon.png"/>
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no "
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no "
     />
     <title>Burgerizzr</title>
 
     <script>
-      // Disabling zoom ....
-      document.addEventListener(
-        "touchmove",
-        function (event) {
-          if (event.scale !== 1) {
+        // Disabling zoom ....
+        document.addEventListener('touchstart', function (event) {
+            if (event.touches.length > 1) {
+                event.preventDefault();
+            }
+        }, {passive: false});
+
+        document.addEventListener('gesturestart', function (event) {
             event.preventDefault();
-          }
-        },
-        { passive: false }
-      );
-      // Retrieve the language direction value from localStorage
-      const lang = localStorage.getItem("@LANGUAGE_STORAGE_KEY");
+        });
 
-      // Check if the language direction value is valid
-      document.documentElement.setAttribute(
-        "dir",
-        lang === "en" ? "ltr" : "rtl"
-      );
-      document.documentElement.setAttribute("lang", lang);
+        // Retrieve the language direction value from localStorage
+        const lang = localStorage.getItem("@LANGUAGE_STORAGE_KEY");
+
+        // Check if the language direction value is valid
+        document.documentElement.setAttribute(
+            "dir",
+            lang === "en" ? "ltr" : "rtl"
+        );
+        document.documentElement.setAttribute("lang", lang);
     </script>
-    <script type="module" crossorigin src="./assets/index-DJbfdMem.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-RpeHVWdK.css" />
-  </head>
+  <script type="module" crossorigin src="./assets/index-DJbfdMem.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-RpeHVWdK.css">
+</head>
 
-  <body style="width: 100% !important">
-    <div id="root" style="width: 100% !important"></div>
-  </body>
+<body style="width: 100% !important">
+<div id="root" style="width: 100% !important"></div>
+</body>
 </html>
